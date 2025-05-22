@@ -73,7 +73,7 @@ function TryRobATM(atmName)
             ClearPedTasks(PlayerPedId())
 
  
-            local success = exports['qw-lock']:Circle(1, 3.5)
+            local success = exports['qb-lock']:Circle(1, 3.5)
 
             if success then
 
