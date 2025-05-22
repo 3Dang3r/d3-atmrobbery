@@ -9,9 +9,9 @@ Config.ATMModels = {
 }
 
 
-Config.RequiredItem = "raspberrypi" --- item of your choice
+Config.RequiredItem = "raspberrypi"
 
-Config.MinimumPolice = 0
+Config.MinimumPolice = 4
 
 Config.ATMCooldown = 300
 
