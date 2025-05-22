@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 CreateThread(function()
     for _, model in pairs(Config.ATMModels) do
-        exports['qw-target']:AddTargetModel(model, {
+        exports['qb-target']:AddTargetModel(model, {
             options = {
                 {
                     type = "client",
